@@ -22,11 +22,6 @@ public class BubbleSort {
 		  System.out.print(j+",");
 	  }
 	}
-    void swap(int firstelement, int secondelement){
-		int temp = firstelement;
-		firstelement = secondelement;
-		secondelement = temp;
-	}
 	
  public static void main(String args[]){
 	 BubbleSort sort = new BubbleSort();
